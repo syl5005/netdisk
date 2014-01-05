@@ -241,6 +241,7 @@
 			return Util::convertCharset($s, $cs, $encode);
 		}
 		
+		
 		public function log() {
 			if (!Logging::isDebug()) return;
 			Logging::logSystem();
